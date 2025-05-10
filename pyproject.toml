@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "todolist_gtstamant"
+version = "0.1.0"
+authors = [
+    name = "Guy St Amant", email = "gtstamant@gmail.com"
+]
+description = "A fantastic todo list application."
+readme = "README.md"
+requires-python = ">3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    # More classifiers can be found at
+]
+dependencies = []
